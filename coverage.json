@@ -1,0 +1,268 @@
+{
+  "checked_at": "2026-10-22",
+  "total_jurisdictions": 23,
+  "complete_jurisdictions": 0,
+  "definition": "初搜不等於逐人普查；已查核筆數不表示最新程序或全國覆蓋無缺漏。零筆僅表示本試行版未收錄，並非該縣市無案件。",
+  "jurisdictions": [
+    {
+      "jurisdiction": "立法院",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 11,
+      "verified_person_count": 8,
+      "checked_names": [
+        "傅崐萁",
+        "林宜瑾",
+        "林岱樺",
+        "盧縣一",
+        "許宇甄",
+        "賴惠員",
+        "郭國文",
+        "顏寬恒"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=109"
+    },
+    {
+      "jurisdiction": "臺北市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 2,
+      "verified_person_count": 2,
+      "checked_names": [
+        "應曉薇",
+        "陳重文"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "新北市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "曾煥嘉"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "桃園市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "游吾和"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "臺中市",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "臺南市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 2,
+      "verified_person_count": 2,
+      "checked_names": [
+        "林志展",
+        "邱莉莉"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "高雄市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "曾麗燕"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "基隆市",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "新竹市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "黃文政"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "嘉義市",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "新竹縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "苗栗縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "彰化縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "南投縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "雲林縣",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 2,
+      "verified_person_count": 2,
+      "checked_names": [
+        "沈宗隆",
+        "王又民"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "嘉義縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "屏東縣",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "周典論"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "宜蘭縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "花蓮縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "臺東縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "澎湖縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "金門縣",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "許玉昭"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "連江縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    }
+  ]
+}

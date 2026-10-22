@@ -1,0 +1,1682 @@
+window.CASE_DATA = {
+  "schema_version": 1,
+  "title": "現職民意代表司法案件資料庫",
+  "subtitle": "首版試行資料・非完整普查",
+  "checked_at": "2026-10-22",
+  "scope": "現職中國國民黨與民主進步黨立法委員及縣市議員；首版先查與公職相關案件。",
+  "disclaimers": [
+    "起訴、羈押及尚未確定判決均不等於有罪確定。",
+    "最新已核實事件日與資料查閱日不同；未找到更新不代表沒有後續。",
+    "未收錄不代表無案件或無犯罪紀錄，不能計算政黨犯罪率。",
+    "同案有罪、無罪、撤銷發回部分分開列示。",
+    "本網站不是官方犯罪紀錄、良民證或法律意見。"
+  ],
+  "records": [
+    {
+      "id": "yan-assistant-fees",
+      "name": "顏寬恒",
+      "party": "中國國民黨",
+      "office": "立法委員",
+      "title": "公費助理費案",
+      "caseType": "刑事",
+      "status": "撤銷發回更審，未確定",
+      "latestVerifiedEventDate": "2026-05-28",
+      "isFinalConviction": false,
+      "summary": "助理費案一、二審判刑7年10月；最高法院撤銷相關部分，發回臺中高分院。",
+      "charges": [
+        "貪污治罪條例第5條第1項第2款",
+        "刑法第214條"
+      ],
+      "sourceIds": [
+        "yan-supreme",
+        "yan-appeal",
+        "yan-first"
+      ],
+      "identityMatch": "判決明載姓名及立法委員任內公費助理，與官方現職名冊同一人。",
+      "uncertainty": "未查得2026-05-28之後的更審實體判決；最新可核對正式裁判事件為發回，不可寫定讞或已無罪。",
+      "person": "顏寬恒",
+      "case_title": "公費助理費案",
+      "stage": "撤銷發回更審，未確定",
+      "latest_verified_event_date": "2026-05-28",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
+      "office_verification_date": "2026-10-22",
+      "district": "臺中市第2選舉區",
+      "sources": [
+        {
+          "id": "yan-appeal",
+          "title": "臺灣高等法院臺中分院113年度上訴字第1120號刑事判決",
+          "date": "2025-09-11",
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TCHM%2C113%2C%E4%B8%8A%E8%A8%B4%2C1120%2C20250911%2C1",
+          "read": true,
+          "relevantSections": "犯罪事實一／二；肆一；竊佔無罪論述；末尾上訴教示",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "id": "yan-supreme",
+          "title": "最高法院114年度台上字第6452號刑事判決",
+          "date": "2026-05-28",
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPSM%2C114%2C%E5%8F%B0%E4%B8%8A%2C6452%2C20260528%2C1",
+          "read": true,
+          "relevantSections": "主文、理由四至六",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "id": "yan-first",
+          "title": "臺灣臺中地方法院112年度訴字第853號刑事判決",
+          "date": "2024-07-26",
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TCDM%2C112%2C%E8%A8%B4%2C853%2C20240726%2C1",
+          "read": "search result; first-instance outcome additionally established in appeal judgment",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1403521-f1528-1.html",
+          "title": "臺中高分院二審新聞稿：助理費以外部分均確定",
+          "date": "2025-09-11",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "未查得2026-05-28之後的更審實體判決；最新可核對正式裁判事件為發回，不可寫定讞或已無罪。",
+        "Search indexed official page confirms name/party; direct profile fetch timed out; current roster directly read."
+      ],
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats"
+    },
+    {
+      "id": "yan-property-document",
+      "name": "顏寬恒",
+      "party": "中國國民黨",
+      "office": "立法委員",
+      "title": "房地交易登載不實案",
+      "caseType": "刑事",
+      "status": "有罪確定",
+      "latestVerifiedEventDate": "2025-09-11",
+      "isFinalConviction": true,
+      "summary": "房地交易使公務員登載不實罪，二審維持6月徒刑，得易科罰金；判決載明此部分不得上訴。",
+      "charges": [
+        "刑法第214條"
+      ],
+      "sourceIds": [
+        "yan-appeal"
+      ],
+      "identityMatch": "判決明載顏寬恒及選舉相關房地交易。",
+      "uncertainty": "未核對執行情形；勿將此確定刑與仍更審的助理費罪合稱全案定讞。",
+      "person": "顏寬恒",
+      "case_title": "房地交易登載不實案",
+      "stage": "有罪確定",
+      "latest_verified_event_date": "2025-09-11",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
+      "office_verification_date": "2026-10-22",
+      "district": "臺中市第2選舉區",
+      "sources": [
+        {
+          "id": "yan-appeal",
+          "title": "臺灣高等法院臺中分院113年度上訴字第1120號刑事判決",
+          "date": "2025-09-11",
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TCHM%2C113%2C%E4%B8%8A%E8%A8%B4%2C1120%2C20250911%2C1",
+          "read": true,
+          "relevantSections": "犯罪事實一／二；肆一；竊佔無罪論述；末尾上訴教示",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1403521-f1528-1.html",
+          "title": "臺中高分院二審新聞稿：助理費以外部分均確定",
+          "date": "2025-09-11",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "未核對執行情形；勿將此確定刑與仍更審的助理費罪合稱全案定讞。",
+        "Search indexed official page confirms name/party; direct profile fetch timed out; current roster directly read."
+      ],
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats"
+    },
+    {
+      "id": "yan-land-occupation",
+      "name": "顏寬恒",
+      "party": "中國國民黨",
+      "office": "立法委員",
+      "title": "同案國有地竊佔指控",
+      "caseType": "刑事",
+      "status": "無罪確定",
+      "latestVerifiedEventDate": "2025-09-11",
+      "isFinalConviction": false,
+      "summary": "竊佔部分二審維持無罪，判決載明不得上訴。應與同案有罪部分並列。",
+      "charges": [
+        "刑法第320條第2項"
+      ],
+      "sourceIds": [
+        "yan-appeal"
+      ],
+      "identityMatch": "與前述同一刑事判決及被告。",
+      "uncertainty": "無罪僅指本案起訴之竊佔罪，不代表其他民事或行政爭議均不存在。",
+      "person": "顏寬恒",
+      "case_title": "同案國有地竊佔指控",
+      "stage": "無罪確定",
+      "latest_verified_event_date": "2025-09-11",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
+      "office_verification_date": "2026-10-22",
+      "district": "臺中市第2選舉區",
+      "sources": [
+        {
+          "id": "yan-appeal",
+          "title": "臺灣高等法院臺中分院113年度上訴字第1120號刑事判決",
+          "date": "2025-09-11",
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TCHM%2C113%2C%E4%B8%8A%E8%A8%B4%2C1120%2C20250911%2C1",
+          "read": true,
+          "relevantSections": "犯罪事實一／二；肆一；竊佔無罪論述；末尾上訴教示",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1403521-f1528-1.html",
+          "title": "臺中高分院二審新聞稿：助理費以外部分均確定",
+          "date": "2025-09-11",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "無罪僅指本案起訴之竊佔罪，不代表其他民事或行政爭議均不存在。",
+        "Search indexed official page confirms name/party; direct profile fetch timed out; current roster directly read."
+      ],
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats"
+    },
+    {
+      "id": "fu-heji-shares",
+      "name": "傅崐萁",
+      "party": "中國國民黨",
+      "office": "立法委員",
+      "title": "合機股票操縱案",
+      "caseType": "刑事",
+      "status": "有罪確定",
+      "latestVerifiedEventDate": "2018-09-12",
+      "isFinalConviction": true,
+      "summary": "最高法院駁回上訴，全案確定；刑期經減刑為8月。",
+      "charges": [
+        "行為時證券交易法操縱股價規定"
+      ],
+      "sourceIds": [
+        "fu-heji-supreme"
+      ],
+      "publicRoleRelevance": "最高法院新聞稿載明當時立委身份，並於立委辦公室商議。",
+      "identityMatch": "官方法院標題全名，內容載立委身份；現職官方個人頁為第11屆花蓮縣中國國民黨立委。",
+      "uncertainty": "未另核對刑期執行及全部非常救濟程序；未查得撤銷此確定判決之後續來源。",
+      "person": "傅崐萁",
+      "case_title": "合機股票操縱案",
+      "stage": "有罪確定",
+      "latest_verified_event_date": "2018-09-12",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46824",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46824",
+      "office_verification_date": "2026-10-22",
+      "district": "花蓮縣選舉區",
+      "sources": [
+        {
+          "id": "fu-heji-supreme",
+          "title": "最高法院106年度台上字第3111號新聞稿",
+          "date": "2018-09-12",
+          "url": "https://jirs.judicial.gov.tw/GNNWS/NNWSS002.asp?id=367207",
+          "read": true,
+          "relevantSections": "壹二確認全案確定；貳四8月；參三立委辦公室商議",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "未另核對刑期執行及全部非常救濟程序；未查得撤銷此確定判決之後續來源。",
+        "Directly read; 第6會期 listed."
+      ],
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats"
+    },
+    {
+      "id": "lu-recall",
+      "name": "盧縣一",
+      "party": "中國國民黨",
+      "office": "立法委員",
+      "title": "伍麗華罷免提議人名冊案",
+      "caseType": "刑事",
+      "status": "已起訴；據2026-02-09報導審理中；未查得確定判決",
+      "isFinalConviction": false,
+      "latestVerifiedPrimaryEventDate": "2025-10-29",
+      "latestReportedEventDate": "2026-02-09",
+      "announcementDate": "2025-10-31",
+      "summary": "屏檢公告列起訴，與中央社具名報導交叉核對為伍麗華罷免名冊案；報導指本案已開庭，本人否認犯罪，尚未核得確定判決。",
+      "sourceIds": [
+        "pingtung-dispositions"
+      ],
+      "secondarySources": [
+        {
+          "title": "中央社起訴報導",
+          "date": "2025-10-31",
+          "url": "https://www.cna.com.tw/news/aipl/202510310118.aspx",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社盧縣一出庭",
+          "date": "2026-01-19",
+          "url": "https://www.cna.com.tw/news/asoc/202601190123.aspx",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社許宇甄出庭",
+          "date": "2026-02-09",
+          "url": "https://www.cna.com.tw/news/asoc/202602090121.aspx",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "identityMatch": "高信度交叉核對，非僅姓名猜測：屏檢2025-10-29公告同一選偵案群列盧○一、許○甄，並與張○碩、黃○雲、李○全、隋○翰、柯○昱、謝○光及萬○傑同群；中央社2025-10-31引用同署新聞稿具名起訴報導，2026-02-09法院採訪逐一列出盧縣一、許宇甄、張芳碩、黃碧雲、李得全、隋承翰、柯達昱、謝友光、萬培傑，9人姓名遮罩、機關、時間、個資與偽造文書案件類型均相符。案群身份對應為交叉來源推論，不宣稱匿名公告本身顯示全名。",
+      "uncertainty": "未取得完整起訴書或法院具名正式新聞稿；官方公告僅列案由個人資料保護等及起訴。具體檢方指控與開庭、否認內容出自中央社，不應改寫為法院已認定犯罪。未找到2026-02-09後本案實體裁判；不代表不存在。",
+      "latestVerifiedEventDate": "2025-10-29",
+      "latestVerifiedEventDefinition": "最近核對到之主要司法來源事件日期；不等同最後新聞報導日期。",
+      "latestReportedStatus": "中央社2026-02-09報導本案準備程序，許宇甄出庭否認犯罪，並明載盧縣一亦否認犯罪。",
+      "sourceTier": "匿名主要來源＋具名可靠新聞身份橋接",
+      "primaryDocketGroup": [
+        "114年度選偵字第33號",
+        "114年度選偵字第34號"
+      ],
+      "publicRoleRelevance": "公職罷免提議書作業，涉及立委及政黨組織角色；非私人親屬案件。",
+      "person": "盧縣一",
+      "case_title": "伍麗華罷免提議人名冊案",
+      "stage": "已起訴；據2026-02-09報導審理中；未查得確定判決",
+      "latest_verified_event_date": "2025-10-29",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46847",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46847",
+      "office_verification_date": "2026-10-22",
+      "district": "山地原住民選舉區",
+      "sources": [
+        {
+          "id": "pingtung-dispositions",
+          "title": "臺灣屏東地方檢察署偵結案件公告",
+          "date": "2025-10-29",
+          "url": "https://www.ptc.moj.gov.tw/media/416725/1141029.pdf?mediaDL=true",
+          "read": true,
+          "relevantSections": "p17至18，114選偵33、34，盧○一、許○甄，個人資料保護等，起訴",
+          "limitation": "匿名姓名，身份連結仍仰賴中央社全名報導；此公告不是完整起訴書。",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社起訴報導",
+          "date": "2025-10-31",
+          "url": "https://www.cna.com.tw/news/aipl/202510310118.aspx",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社盧縣一出庭",
+          "date": "2026-01-19",
+          "url": "https://www.cna.com.tw/news/asoc/202601190123.aspx",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社許宇甄出庭",
+          "date": "2026-02-09",
+          "url": "https://www.cna.com.tw/news/asoc/202602090121.aspx",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "未取得完整起訴書或法院具名正式新聞稿；官方公告僅列案由個人資料保護等及起訴。具體檢方指控與開庭、否認內容出自中央社，不應改寫為法院已認定犯罪。未找到2026-02-09後本案實體裁判；不代表不存在。",
+        "Directly read; 第6會期 listed."
+      ],
+      "latest_reported_event_date": "2026-02-09",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats"
+    },
+    {
+      "id": "hsu-recall",
+      "name": "許宇甄",
+      "party": "中國國民黨",
+      "office": "立法委員",
+      "title": "伍麗華罷免提議人名冊案",
+      "caseType": "刑事",
+      "status": "已起訴；據2026-02-09報導審理中；未查得確定判決",
+      "isFinalConviction": false,
+      "latestVerifiedPrimaryEventDate": "2025-10-29",
+      "latestReportedEventDate": "2026-02-09",
+      "announcementDate": "2025-10-31",
+      "summary": "屏檢公告列起訴，與中央社具名報導交叉核對為伍麗華罷免名冊案；報導指本案已開庭，本人否認犯罪，尚未核得確定判決。",
+      "sourceIds": [
+        "pingtung-dispositions"
+      ],
+      "secondarySources": [
+        {
+          "title": "中央社起訴報導",
+          "date": "2025-10-31",
+          "url": "https://www.cna.com.tw/news/aipl/202510310118.aspx",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社盧縣一出庭",
+          "date": "2026-01-19",
+          "url": "https://www.cna.com.tw/news/asoc/202601190123.aspx",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社許宇甄出庭",
+          "date": "2026-02-09",
+          "url": "https://www.cna.com.tw/news/asoc/202602090121.aspx",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "identityMatch": "高信度交叉核對，非僅姓名猜測：屏檢2025-10-29公告同一選偵案群列盧○一、許○甄，並與張○碩、黃○雲、李○全、隋○翰、柯○昱、謝○光及萬○傑同群；中央社2025-10-31引用同署新聞稿具名起訴報導，2026-02-09法院採訪逐一列出盧縣一、許宇甄、張芳碩、黃碧雲、李得全、隋承翰、柯達昱、謝友光、萬培傑，9人姓名遮罩、機關、時間、個資與偽造文書案件類型均相符。案群身份對應為交叉來源推論，不宣稱匿名公告本身顯示全名。",
+      "uncertainty": "未取得完整起訴書或法院具名正式新聞稿；官方公告僅列案由個人資料保護等及起訴。具體檢方指控與開庭、否認內容出自中央社，不應改寫為法院已認定犯罪。未找到2026-02-09後本案實體裁判；不代表不存在。",
+      "latestVerifiedEventDate": "2025-10-29",
+      "latestVerifiedEventDefinition": "最近核對到之主要司法來源事件日期；不等同最後新聞報導日期。",
+      "latestReportedStatus": "中央社2026-02-09報導本案準備程序，許宇甄出庭否認犯罪，並明載盧縣一亦否認犯罪。",
+      "sourceTier": "匿名主要來源＋具名可靠新聞身份橋接",
+      "primaryDocketGroup": [
+        "114年度選偵字第33號",
+        "114年度選偵字第34號"
+      ],
+      "publicRoleRelevance": "公職罷免提議書作業，涉及立委及政黨組織角色；非私人親屬案件。",
+      "person": "許宇甄",
+      "case_title": "伍麗華罷免提議人名冊案",
+      "stage": "已起訴；據2026-02-09報導審理中；未查得確定判決",
+      "latest_verified_event_date": "2025-10-29",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46808",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46808",
+      "office_verification_date": "2026-10-22",
+      "district": "全國不分區及僑居國外國民",
+      "sources": [
+        {
+          "id": "pingtung-dispositions",
+          "title": "臺灣屏東地方檢察署偵結案件公告",
+          "date": "2025-10-29",
+          "url": "https://www.ptc.moj.gov.tw/media/416725/1141029.pdf?mediaDL=true",
+          "read": true,
+          "relevantSections": "p17至18，114選偵33、34，盧○一、許○甄，個人資料保護等，起訴",
+          "limitation": "匿名姓名，身份連結仍仰賴中央社全名報導；此公告不是完整起訴書。",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社起訴報導",
+          "date": "2025-10-31",
+          "url": "https://www.cna.com.tw/news/aipl/202510310118.aspx",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社盧縣一出庭",
+          "date": "2026-01-19",
+          "url": "https://www.cna.com.tw/news/asoc/202601190123.aspx",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "title": "中央社許宇甄出庭",
+          "date": "2026-02-09",
+          "url": "https://www.cna.com.tw/news/asoc/202602090121.aspx",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "未取得完整起訴書或法院具名正式新聞稿；官方公告僅列案由個人資料保護等及起訴。具體檢方指控與開庭、否認內容出自中央社，不應改寫為法院已認定犯罪。未找到2026-02-09後本案實體裁判；不代表不存在。",
+        "Current roster directly read; profile search indexed but direct fetch failed; official2026-10-09 event also names her."
+      ],
+      "latest_reported_event_date": "2026-02-09",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats"
+    },
+    {
+      "id": "lin-yi-chin-assistant-funds",
+      "person": "林宜瑾",
+      "party": "民主進步黨",
+      "office": "第11屆立法委員",
+      "district": "臺南市第4選舉區",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46779",
+      "case_title": "公費助理費案",
+      "case_number": "臺灣臺南地方法院114年度訴字第2517號",
+      "stage": "一審有罪，得上訴；未查得後續確定裁判",
+      "finality": "不得標示定讞",
+      "latest_verified_event_date": "2026-07-02",
+      "summary": "臺南地院一審認定共同犯利用職務機會詐取財物罪共6罪，應執行有期徒刑7年、褫奪公權4年。已繳回的1,412萬7,388元犯罪所得宣告沒收。法院公告明載得上訴。",
+      "identity_check": "官方新聞稿匿名為林○瑾；中央社及公視同日報導以完整姓名林宜瑾對應，日期、法院、金額及刑期吻合。",
+      "sources": [
+        {
+          "publisher": "司法院／臺灣臺南地方法院",
+          "type": "official_court",
+          "date": "2026-07-02",
+          "title": "臺灣臺南地方法院114年度訴字第2517號被告林○瑾等違反貪污治罪條例等案件新聞稿",
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1574723-33517-1.html",
+          "supports": "罪名、刑期、金額、得上訴、判決日期",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "publisher": "中央社",
+          "type": "identity_crosscheck",
+          "date": "2026-07-02",
+          "url": "https://www.cna.com.tw/news/asoc/202607020179.aspx",
+          "supports": "林○瑾完整姓名林宜瑾",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "publisher": "公視",
+          "type": "response_and_identity",
+          "date": "2026-07-02",
+          "url": "https://news.pts.org.tw/article/815860",
+          "supports": "本人表示將上訴；不等於已證實上訴受理",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "未取得上訴繫屬案號或確定證明。最新事件僅表達已驗證之日期，不主張2026-10-22仍無後續裁判。",
+        "立法院個人頁搜尋索引列黨籍為民進黨；不得將停權處分自行等同退黨或除名。",
+        "補查2026年7月至10月黨紀：7月2日媒體報導廉政會尚待討論；9月24日聯合報引他人說法稱尚未停權，此非黨部正式決議，故不作確定狀態依據。"
+      ],
+      "party_status_note": "2026-10-22核對立法院現屆個人頁仍列民主進步黨。本次未取得正式停權或除名決議，不推定已受處分；司法判決與黨紀應分欄。",
+      "caseType": "刑事",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46779",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "id": "lin-dai-hua-assistant-funds",
+      "person": "林岱樺",
+      "party": "民主進步黨",
+      "office": "第11屆立法委員",
+      "district": "高雄市第4選舉區",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46780",
+      "case_title": "公費助理費案",
+      "case_number": null,
+      "stage": "已起訴；2026-09-09補充報導稱法院審理中",
+      "finality": "尚無已核實有罪判決，不得稱為定讞或犯罪成立",
+      "latest_official_event_date": "2025-08-12",
+      "latest_verified_event_date": "2025-08-12",
+      "summary": "高雄地檢署官方公告確認，林姓立法委員相關案件已於2025年6月提起公訴，送交高雄地院並進行準備程序；同署7月公告指起訴依據為貪污治罪條例等罪名。中央社完整姓名及同日事件報導可核對為林岱樺助理費案。2026年9月9日中央社報導稱原貪污案件仍由高雄地院審理。",
+      "identity_check": "官方使用林姓立法委員；2025-08-12中央社完整姓名林岱樺報導，與官方同日回應、起訴月份、法院及助理費案件脈絡相符。",
+      "sources": [
+        {
+          "publisher": "高雄地方檢察署",
+          "type": "official_prosecutor",
+          "date": "2025-08-12",
+          "title": "雄檢就林姓被告回應之說明",
+          "url": "https://www.ksc.moj.gov.tw/media/408503/1140812雄檢就林姓被告回應之說明.pdf?mediaDL=true",
+          "supports": "確認林姓立委案件2025年6月已起訴高雄地院、進入準備程序。",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "publisher": "高雄地方檢察署",
+          "type": "official_prosecutor",
+          "date": "2025-07-31",
+          "title": "本署就林姓被告媒體採訪之說明",
+          "url": "https://www.ksc.moj.gov.tw/media/407373/1140731本署就林姓被告媒體採訪之說明.pdf?mediaDL=true",
+          "supports": "林姓立委已依貪污治罪條例等起訴；未列精確涉案金額。",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "publisher": "中央社",
+          "type": "identity_crosscheck",
+          "date": "2025-08-12",
+          "url": "https://www.cna.com.tw/news/asoc/202508120086.aspx",
+          "supports": "官方匿名林姓立委完整姓名及案件脈絡核對",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "publisher": "中央社",
+          "type": "supplementary_case_details",
+          "date": "2025-06-23",
+          "url": "https://www.cna.com.tw/news/asoc/202506230176.aspx",
+          "supports": "2025-06-23起訴日期、助理薪資及加班費指控；不將其他被告罪名歸給林岱樺",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "publisher": "中央社",
+          "type": "supplementary_latest_status",
+          "date": "2026-09-09",
+          "url": "https://www.cna.com.tw/news/asoc/202609090085.aspx",
+          "supports": "原貪污案仍審理；另報政治獻金追加起訴，非本紀錄原指控",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "未取得原案起訴書或法院案號；官方公告確認起訴和2025年準備程序，2026年狀態來自中央社補充報導。",
+        "沒有取得截至2026-10-22的法院最新裁判證明；不得將未查得判決解讀為確定無後續裁判。"
+      ],
+      "related_pending_case": {
+        "title": "政治獻金涉嫌公益侵占追加起訴",
+        "reported_date": "2026-09-09",
+        "primary_source_status": "尚待官方原文核實，與原助理費案分開記錄",
+        "description": "中央社報導檢方另以公益侵占追加起訴，林岱樺否認與事實相符。不得把追加指控寫成原助理費起訴罪名，也不得把檢方指控寫成法院認定。",
+        "report_url": "https://www.cna.com.tw/news/asoc/202609090085.aspx",
+        "response_url": "https://www.cna.com.tw/news/asoc/202609090153.aspx"
+      },
+      "latest_reported_event_date": "2026-09-09",
+      "caseType": "刑事",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46780",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "id": "tseng-huan-chia-assistant-funds",
+      "person": "曾煥嘉",
+      "party": "中國國民黨",
+      "office": "新北市議會議員",
+      "district": "新北市",
+      "current_office_verified": true,
+      "office_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112FA00019&_TYP=REP&n=573",
+      "office_verification_date": "2026-10-22",
+      "case_title": "公費助理費案",
+      "case_number": "臺灣新北地方法院110年度訴字第261號",
+      "stage": "一審有罪；後續審級待確認",
+      "finality": "未核實確定，不得標示定讞",
+      "latest_verified_event_date": "2025-01-22",
+      "summary": "新北地院一審就公費助理費申報案件，依共同利用職務上機會詐取財物罪判有期徒刑3年、褫奪公權4年，並沒收已繳回的128萬1,727元。此為一審裁判，不是本資料庫確認的最終結果。",
+      "identity_check": "官方裁判具完整姓名、議會及歷任職務；內政部現職名錄列相同姓名與黨籍。",
+      "sources": [
+        {
+          "publisher": "司法院裁判書系統／新北地方法院",
+          "type": "official_judgment",
+          "date": "2025-01-22",
+          "title": "110年度訴字第261號刑事判決",
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=PCDM%2C110%2C%E8%A8%B4%2C261%2C20250122%2C6",
+          "supports": "一審主文與公費助理費事實",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "搜尋未定位後續裁判；不能據此推斷沒有上訴或已定讞。頁面必須保留此限制。",
+        "現職與黨籍依今日可讀內政部名錄；該頁未載個人資料更新日。"
+      ],
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "party_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112FA00019&_TYP=REP&n=573",
+      "publication_status": "ready_with_caveats",
+      "caseType": "刑事"
+    },
+    {
+      "id": "yu-wu-he-assistant-funds",
+      "person": "游吾和",
+      "party": "民主進步黨",
+      "office": "桃園市議會議員",
+      "district": "桃園市",
+      "current_office_verified": true,
+      "office_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112HA00017&_TYP=REP&n=573",
+      "office_verification_date": "2026-10-22",
+      "case_title": "公費助理費起訴案",
+      "case_number": null,
+      "stage": "已起訴；未核實後續判決",
+      "finality": "未有本資料庫核實之有罪確定判決",
+      "latest_verified_event_date": "2025-11-18",
+      "summary": "桃園地檢署指控涉及虛報助理及薪資申報不實，以利用職務機會詐取財物、使公務員登載不實等罪嫌提起公訴，並聲請沒收356萬1,486元。這是檢方指控，不是法院有罪判決。",
+      "identity_check": "檢方匿名游○和；中央社同日具名報導與日期、議會、金額、被告人數吻合。",
+      "sources": [
+        {
+          "publisher": "臺灣桃園地方檢察署",
+          "type": "official_prosecutor",
+          "date": "2025-11-18",
+          "title": "1141118桃檢偵辦桃園市游姓議員詐領助理補助款起訴新聞稿",
+          "url": "https://www.tyc.moj.gov.tw/294079/294166/294168/1344369/",
+          "supports": "起訴事件、指控與聲請沒收金額",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "publisher": "中央社",
+          "type": "identity_crosscheck",
+          "date": "2025-11-18",
+          "title": "桃園市議員游吾和父女涉詐助理費356萬 檢起訴",
+          "url": "https://www.cna.com.tw/news/asoc/202511180103.aspx",
+          "supports": "完整姓名與匿名檢方新聞稿對照",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "publisher": "中央社",
+          "type": "supplementary_status",
+          "date": "2026-04-08",
+          "url": "https://www.cna.com.tw/news/aipl/202604080266.aspx",
+          "supports": "2026年4月報導尚無一審判決，非保證今日無後續",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "尚未定位法院案號或2026年4月後司法結果，不能宣稱程序毫無變動。",
+        "現職與黨籍依今日可讀內政部名錄；該頁未載個人資料更新日。"
+      ],
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "party_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112HA00017&_TYP=REP&n=573",
+      "publication_status": "ready_with_caveats",
+      "caseType": "刑事"
+    },
+    {
+      "id": "tn-election-nonprosecution-林宜瑾",
+      "person": "林宜瑾",
+      "party": "民主進步黨",
+      "office": "立法委員",
+      "district": "臺南市",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46779",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46779",
+      "case_title": "2014年臺南市議會議長選舉相關賄選偵查",
+      "stage": "不起訴，未核對再議或確定狀態",
+      "latest_verified_event_date": "2015-11-06",
+      "summary": "2015年11月6日南檢公布臺南市第二屆議長選舉相關偵查結果，列林宜瑾、郭國文、賴惠員等人因無具體犯罪事證均不起訴。這是案件史的有利結果，不是犯罪或違法成立。",
+      "sources": [
+        {
+          "url": "https://www.tnc.moj.gov.tw/297028/297162/297166/487609/post",
+          "title": "臺南地檢署議長選舉相關偵查結果",
+          "type": "official_prosecutor",
+          "date": "2015-11-06",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "檢方新聞稿未提供各被告個別偵查案號、也未載再議或確定狀態，不應擅自標示不起訴確定。",
+        "同一公告亦包含其他被告及不同子案件；不可將公告中的其他人起訴或簽結情形移植到本三人。"
+      ],
+      "caseType": "刑事",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "id": "tn-election-nonprosecution-郭國文",
+      "person": "郭國文",
+      "party": "民主進步黨",
+      "office": "立法委員",
+      "district": "臺南市",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46811",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46811",
+      "case_title": "2014年臺南市議會議長選舉相關賄選偵查",
+      "stage": "不起訴，未核對再議或確定狀態",
+      "latest_verified_event_date": "2015-11-06",
+      "summary": "2015年11月6日南檢公布臺南市第二屆議長選舉相關偵查結果，列林宜瑾、郭國文、賴惠員等人因無具體犯罪事證均不起訴。這是案件史的有利結果，不是犯罪或違法成立。",
+      "sources": [
+        {
+          "url": "https://www.tnc.moj.gov.tw/297028/297162/297166/487609/post",
+          "title": "臺南地檢署議長選舉相關偵查結果",
+          "type": "official_prosecutor",
+          "date": "2015-11-06",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "檢方新聞稿未提供各被告個別偵查案號、也未載再議或確定狀態，不應擅自標示不起訴確定。",
+        "同一公告亦包含其他被告及不同子案件；不可將公告中的其他人起訴或簽結情形移植到本三人。"
+      ],
+      "caseType": "刑事",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "id": "tn-election-nonprosecution-賴惠員",
+      "person": "賴惠員",
+      "party": "民主進步黨",
+      "office": "立法委員",
+      "district": "臺南市",
+      "current_office_verified": true,
+      "office_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46849",
+      "party_source": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46849",
+      "case_title": "2014年臺南市議會議長選舉相關賄選偵查",
+      "stage": "不起訴，未核對再議或確定狀態",
+      "latest_verified_event_date": "2015-11-06",
+      "summary": "2015年11月6日南檢公布臺南市第二屆議長選舉相關偵查結果，列林宜瑾、郭國文、賴惠員等人因無具體犯罪事證均不起訴。這是案件史的有利結果，不是犯罪或違法成立。",
+      "sources": [
+        {
+          "url": "https://www.tnc.moj.gov.tw/297028/297162/297166/487609/post",
+          "title": "臺南地檢署議長選舉相關偵查結果",
+          "type": "official_prosecutor",
+          "date": "2015-11-06",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "檢方新聞稿未提供各被告個別偵查案號、也未載再議或確定狀態，不應擅自標示不起訴確定。",
+        "同一公告亦包含其他被告及不同子案件；不可將公告中的其他人起訴或簽結情形移植到本三人。"
+      ],
+      "caseType": "刑事",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "name": "邱莉莉",
+      "jurisdiction": "臺南市",
+      "office": "臺南市議會議長／議員",
+      "officeVerification": "verified_current",
+      "party": "民主進步黨",
+      "partyVerification": "verified_current",
+      "officePartySources": [
+        "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112DA00038&_TYP=REP&n=573",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=0B616907-8CC6-453E-80D9-E0731C9A916C"
+      ],
+      "caseTitle": "第四屆臺南市議會正副議長選舉案",
+      "status": "無罪確定",
+      "statusDate": "2026-08-13",
+      "summary": "被訴違反公職人員選舉罷免法等案，一、二審均無罪；最高法院駁回檢方上訴，無罪確定。不可列為犯罪或有罪案例。",
+      "caseNumbers": [
+        "臺南地院112年度矚重訴字第1號",
+        "臺南高分院113年度矚上重訴字第2號"
+      ],
+      "primarySources": [
+        "https://www.judicial.gov.tw/tw/cp-1888-1079617-14b90-1.html",
+        "https://www.judicial.gov.tw/tw/cp-1888-1496741-fde95-1.html"
+      ],
+      "latestStatusSource": "https://www.cna.com.tw/news/asoc/202608130217.aspx",
+      "latestStatusPrimaryVerified": false,
+      "identityMatch": "官方法院新聞稿具名，官方議會及內政部名冊同名、同職務；中央社串接最高法院結果。",
+      "displayWarning": "最新確定結果有中央社支持，本次未取得最高法院原始判決。",
+      "id": "metro-邱莉莉",
+      "person": "邱莉莉",
+      "district": "臺南市",
+      "current_office_verified": true,
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "office_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112DA00038&_TYP=REP&n=573",
+      "party_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112DA00038&_TYP=REP&n=573",
+      "case_title": "第四屆臺南市議會正副議長選舉案",
+      "stage": "無罪確定",
+      "latest_verified_event_date": "2026-08-13",
+      "sources": [
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1079617-14b90-1.html",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2024-04-29",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1496741-fde95-1.html",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2026-02-13",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/asoc/202608130217.aspx",
+          "title": "最新已核對程序來源",
+          "type": "latest_status",
+          "date": "2026-08-13",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "最新確定結果有中央社支持，本次未取得最高法院原始判決。"
+      ],
+      "caseType": "刑事",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "name": "林志展",
+      "jurisdiction": "臺南市",
+      "office": "臺南市議會副議長／議員",
+      "officeVerification": "verified_current",
+      "party": "民主進步黨",
+      "partyVerification": "verified_current",
+      "officePartySources": [
+        "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112DA00017&_TYP=REP&n=573",
+        "https://www.tncc.gov.tw/councilorpage.asp?mainid=DF5652F8-552C-4139-8437-084E442F5F7E"
+      ],
+      "caseTitle": "第四屆臺南市議會正副議長選舉案",
+      "status": "無罪確定",
+      "statusDate": "2026-08-13",
+      "summary": "被訴違反公職人員選舉罷免法等案，一、二審均無罪；最高法院駁回檢方上訴，無罪確定。不可列為犯罪或有罪案例。",
+      "caseNumbers": [
+        "臺南地院112年度矚重訴字第1號",
+        "臺南高分院113年度矚上重訴字第2號"
+      ],
+      "primarySources": [
+        "https://www.judicial.gov.tw/tw/cp-1888-1079617-14b90-1.html",
+        "https://www.judicial.gov.tw/tw/cp-1888-1496741-fde95-1.html"
+      ],
+      "latestStatusSource": "https://www.cna.com.tw/news/asoc/202608130217.aspx",
+      "latestStatusPrimaryVerified": false,
+      "identityMatch": "官方法院新聞稿具名，官方議會及內政部名冊同名、同職務；中央社串接最高法院結果。",
+      "id": "metro-林志展",
+      "person": "林志展",
+      "district": "臺南市",
+      "current_office_verified": true,
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "office_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112DA00017&_TYP=REP&n=573",
+      "party_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112DA00017&_TYP=REP&n=573",
+      "case_title": "第四屆臺南市議會正副議長選舉案",
+      "stage": "無罪確定",
+      "latest_verified_event_date": "2026-08-13",
+      "sources": [
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1079617-14b90-1.html",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2024-04-29",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1496741-fde95-1.html",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2026-02-13",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/asoc/202608130217.aspx",
+          "title": "最新已核對程序來源",
+          "type": "latest_status",
+          "date": "2026-08-13",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "後續程序仍須追蹤，不能由未查得推定沒有變化。",
+        "最新無罪確定結果由中央社支持，本次未取得最高法院原始判決。"
+      ],
+      "caseType": "刑事",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "name": "曾麗燕",
+      "jurisdiction": "高雄市",
+      "office": "高雄市議會議員（前議長）",
+      "officeVerification": "verified_current",
+      "party": "中國國民黨",
+      "partyVerification": "verified_current",
+      "officePartySources": [
+        "https://www.kcc.gov.tw/MemberInfo_New.aspx?msn=2234&n=39&sms=9028"
+      ],
+      "officeEvidence": "官方本屆議員頁列中國國民黨，且有2026-10-08市政總質詢紀錄。",
+      "caseTitle": "公費助理補助費案",
+      "status": "二審有罪，未確定",
+      "statusDate": "2025-08-11",
+      "summary": "二審以利用職務上機會詐取財物等案判應執行12年，褫奪公權6年；官方新聞稿載可上訴第三審。2026年報導仍指最高法院審理中；截至本次檢索未找到更新終局結果，不可表示已定讞。",
+      "caseNumbers": [
+        "高雄高分院112年度上訴字第918號"
+      ],
+      "primarySources": [
+        "https://www.judicial.gov.tw/tw/cp-1888-1383297-80410-1.html"
+      ],
+      "latestStatusSource": "https://www.cna.com.tw/news/asoc/202604070117.aspx",
+      "additionalStatusSource": "https://udn.com/news/amp/story/7321/9494873",
+      "identityMatch": "法院新聞稿記載本人歷任高雄市議員、2020年補選議長；現任官方頁同名及同履歷。",
+      "id": "metro-曾麗燕",
+      "person": "曾麗燕",
+      "district": "高雄市",
+      "current_office_verified": true,
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "office_source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?msn=2234&n=39&sms=9028",
+      "party_source": "https://www.kcc.gov.tw/MemberInfo_New.aspx?msn=2234&n=39&sms=9028",
+      "case_title": "公費助理補助費案",
+      "stage": "二審有罪，未確定",
+      "latest_verified_event_date": "2025-08-11",
+      "sources": [
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1383297-80410-1.html",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2025-08-11",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/asoc/202604070117.aspx",
+          "title": "最新已核對程序來源",
+          "type": "latest_status",
+          "date": "2026-04-07",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "後續程序仍須追蹤，不能由未查得推定沒有變化。"
+      ],
+      "caseType": "刑事",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "name": "陳重文",
+      "jurisdiction": "臺北市",
+      "office": "臺北市議會議員",
+      "officeVerification": "verified_current",
+      "party": "中國國民黨",
+      "partyVerification": "verified_current_official_roster",
+      "officePartySources": [
+        "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112AA00006&_TYP=REP&n=573",
+        "https://www1.kmt.org.tw/page.aspx?mid=24"
+      ],
+      "caseTitle": "台智光／立錡雲端等案",
+      "status": "一審有罪，二審審理中；未確定",
+      "statusDate": "2024-12-27",
+      "latestProceduralReportDate": "2026-04-28",
+      "summary": "臺北地院113年度金訴字第32號，一審不得易科罰金部分應執行8年6月、褫奪公權6年；可易科罰金部分應執行6月。2026年4月28日中央社報導高院二審開庭，本次未查得更新宣判或定讞來源，不可標為確定有罪。 同一審另就國亨行銷事業有限公司資本不實部分諭知無罪；該部分後續確定狀態未另核實。",
+      "caseNumbers": [
+        "臺北地院113年度金訴字第32號"
+      ],
+      "primarySources": [
+        "https://www.judicial.gov.tw/tw/cp-1888-1227269-96497-1.html",
+        "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPDM%2C113%2C%E9%87%91%E8%A8%B4%2C32%2C20241227%2C3"
+      ],
+      "latestStatusSource": "https://www.cna.com.tw/news/asoc/202604280248.aspx",
+      "identityMatch": "官方法院新聞稿具名臺北市議員，MOI現任名冊同名同職，中央社二審報導亦識別為國民黨臺北市議員。",
+      "partyCaveat": "官方現任名冊及國民黨官網仍列名；停權不等於失去黨籍，本次未取得確定停權日期。",
+      "id": "metro-陳重文",
+      "person": "陳重文",
+      "district": "臺北市",
+      "current_office_verified": true,
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "office_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112AA00006&_TYP=REP&n=573",
+      "party_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112AA00006&_TYP=REP&n=573",
+      "case_title": "台智光／立錡雲端等案",
+      "stage": "一審有罪，二審審理中；未確定",
+      "latest_verified_event_date": "2024-12-27",
+      "sources": [
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1227269-96497-1.html",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2024-12-27",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPDM%2C113%2C%E9%87%91%E8%A8%B4%2C32%2C20241227%2C3",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2024-12-27",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/asoc/202604280248.aspx",
+          "title": "最新已核對程序來源",
+          "type": "latest_status",
+          "date": "2026-04-28",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "後續程序仍須追蹤，不能由未查得推定沒有變化。",
+        "官方現任名冊及國民黨官網仍列名；停權不等於失去黨籍，本次未取得確定停權日期。"
+      ],
+      "caseType": "刑事",
+      "party_note": "官方現任名冊及國民黨官網仍列名；停權不等於失去黨籍，本次未取得確定停權日期。",
+      "latest_reported_event_date": "2026-04-28",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "name": "應曉薇",
+      "jurisdiction": "臺北市",
+      "office": "臺北市議會議員",
+      "officeVerification": "verified_current",
+      "party": "中國國民黨",
+      "partyVerification": "verified_current_official_roster",
+      "officePartySources": [
+        "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112AA00046&_TYP=REP&n=573"
+      ],
+      "partyCaveat": "MOI現任名冊列中國國民黨；媒體報導停止黨權，非開除黨籍。不可把停權誤作無黨籍。",
+      "partyDisciplineSource": "https://www.mnews.tw/story/20260404nm001",
+      "caseTitle": "京華城案收賄及洗錢部分",
+      "status": "一審有罪，二審審理中；未確定",
+      "statusDate": "2026-03-26",
+      "latestProceduralReportDate": "2026-10-19",
+      "summary": "臺北地院一審以違背職務收受賄賂罪及洗錢罪，判應執行15年6月、褫奪公權6年，併科罰金1000萬元。上訴至臺灣高等法院；2026年10月15日官方公告後續準備程序，10月19日中央社確認預定11月9日傳喚應曉薇。非確定判決。",
+      "caseNumbers": [
+        "臺北地院113年度金訴字第51號",
+        "臺灣高等法院115年度上訴字第3346號"
+      ],
+      "primarySources": [
+        "https://www.judicial.gov.tw/tw/cp-1888-1516567-f62f6-1.html",
+        "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPDM%2C113%2C%E9%87%91%E8%A8%B4%2C51%2C20260326%2C16",
+        "https://www.judicial.gov.tw/tw/cp-1888-1633744-9ab2c-1.html"
+      ],
+      "latestStatusSource": "https://www.cna.com.tw/news/asoc/202610190214.aspx",
+      "appealConfirmationSource": "https://www.cna.com.tw/news/asoc/202605250089.aspx",
+      "identityMatch": "法院一審新聞稿明載其連任臺北市第11至14屆議員；MOI現任名冊同名同職同黨；中央社10月19日具名台北市議員應曉薇為二審被告。",
+      "nextKnownHearing": "2026-11-09 14:30 Asia/Taipei",
+      "latestStatusPrimaryVerified": true,
+      "id": "metro-應曉薇",
+      "person": "應曉薇",
+      "district": "臺北市",
+      "current_office_verified": true,
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "office_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112AA00046&_TYP=REP&n=573",
+      "party_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0001&_PARENT_ID=ER11112AA00046&_TYP=REP&n=573",
+      "case_title": "京華城案收賄及洗錢部分",
+      "stage": "一審有罪，二審審理中；未確定",
+      "latest_verified_event_date": "2026-10-15",
+      "sources": [
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1516567-f62f6-1.html",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2026-03-26",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPDM%2C113%2C%E9%87%91%E8%A8%B4%2C51%2C20260326%2C16",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2026-03-26",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1633744-9ab2c-1.html",
+          "title": "官方法院案件來源",
+          "type": "official_court",
+          "date": "2026-10-15",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/asoc/202610190214.aspx",
+          "title": "最新已核對程序來源",
+          "type": "latest_status",
+          "date": "2026-10-19",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "後續程序仍須追蹤，不能由未查得推定沒有變化。",
+        "MOI現任名冊列中國國民黨；媒體報導停止黨權，非開除黨籍。不可把停權誤作無黨籍。"
+      ],
+      "caseType": "刑事",
+      "party_note": "MOI現任名冊列中國國民黨；媒體報導停止黨權，非開除黨籍。不可把停權誤作無黨籍。",
+      "latest_reported_event_date": "2026-10-19",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "verified_on": "2026-10-22",
+      "finality": "未查得確定證據；不得標成定讞",
+      "publication_note": "只能描述法院已作成的判決及程序，不得將未確定案件寫成最終有罪。",
+      "name": "沈宗隆",
+      "party": "中國國民黨",
+      "office": "雲林縣議員",
+      "district": "雲林縣",
+      "current_office_verified": true,
+      "party_verified": true,
+      "office_source": "https://www.ylcc.gov.tw/cp.aspx?n=22126",
+      "party_source": "https://www.ylcc.gov.tw/cp.aspx?n=22126",
+      "case_name": "達德風電收賄案",
+      "identity_match": "一審事實欄明載沈宗隆與王又民的雲林縣第20屆議員身分；非僅以姓名比對。",
+      "first_instance": {
+        "date": "2025-08-25",
+        "court": "臺灣雲林地方法院",
+        "case_number": "113年度矚訴字第1號",
+        "offense": "不違背職務收受賄賂罪",
+        "holding": "一審判處有期徒刑3年6月、褫奪公權8年。",
+        "amount_ntd": 20000000,
+        "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=ULDM%2C113%2C%E7%9F%9A%E8%A8%B4%2C1%2C20250825%2C7"
+      },
+      "latest_verified_stage": {
+        "date": "2026-06-24",
+        "court": "臺灣高等法院臺南分院",
+        "case_number": "115年度聲字第597號",
+        "underlying_case": "114年度矚上訴字第2號",
+        "status": "二審程序；扣押物發還聲請遭駁回，裁定明載本案尚未審結。",
+        "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TNHM%2C115%2C%E8%81%B2%2C597%2C20260624%2C1",
+        "retrieved": true,
+        "note": "該裁定人名有王佑民及王怡雲的文字異體/誤植，已以允能風力、案情及一審人物相互核對。"
+      },
+      "later_search": {
+        "date": "2026-10-22",
+        "queries": [
+          "沈宗隆 2026 上訴 判決",
+          "沈宗隆 二審 2026",
+          "沈宗隆 114年度矚上訴"
+        ],
+        "result": "未找到更晚實體判決，不能將搜尋未找到當作法院仍未判決的保證。"
+      },
+      "gaps": [
+        "應於正式發布前再次查核是否有2026-06-24以後的實體裁判。"
+      ],
+      "id": "county-沈宗隆",
+      "person": "沈宗隆",
+      "electoral_district": "第三選區",
+      "case_title": "達德風電收賄案",
+      "stage": "二審程序；扣押物發還聲請遭駁回，裁定明載本案尚未審結。",
+      "latest_verified_event_date": "2026-06-24",
+      "summary": "一審判處有期徒刑3年6月、褫奪公權8年。 二審程序；扣押物發還聲請遭駁回，裁定明載本案尚未審結。",
+      "sources": [
+        {
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=ULDM%2C113%2C%E7%9F%9A%E8%A8%B4%2C1%2C20250825%2C7",
+          "title": "113年度矚訴字第1號一審判決",
+          "date": "2025-08-25",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TNHM%2C115%2C%E8%81%B2%2C597%2C20260624%2C1",
+          "title": "115年度聲字第597號程序裁定",
+          "date": "2026-06-24",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "caseType": "刑事",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "verified_on": "2026-10-22",
+      "finality": "未查得確定證據；不得標成定讞",
+      "publication_note": "只能描述法院已作成的判決及程序，不得將未確定案件寫成最終有罪。",
+      "name": "王又民",
+      "party": "中國國民黨",
+      "office": "雲林縣議員",
+      "district": "雲林縣",
+      "current_office_verified": true,
+      "party_verified": true,
+      "office_source": "https://www.ylcc.gov.tw/cp.aspx?n=22126",
+      "party_source": "https://www.ylcc.gov.tw/cp.aspx?n=22126",
+      "case_name": "達德風電收賄案",
+      "identity_match": "一審事實欄明載沈宗隆與王又民的雲林縣第20屆議員身分；非僅以姓名比對。",
+      "first_instance": {
+        "date": "2025-08-25",
+        "court": "臺灣雲林地方法院",
+        "case_number": "113年度矚訴字第1號",
+        "offense": "不違背職務收受賄賂罪",
+        "holding": "一審判處有期徒刑9年6月、褫奪公權8年。",
+        "amount_ntd": 2250000,
+        "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=ULDM%2C113%2C%E7%9F%9A%E8%A8%B4%2C1%2C20250825%2C7"
+      },
+      "latest_verified_stage": {
+        "date": "2026-06-24",
+        "court": "臺灣高等法院臺南分院",
+        "case_number": "115年度聲字第597號",
+        "underlying_case": "114年度矚上訴字第2號",
+        "status": "二審程序；扣押物發還聲請遭駁回，裁定明載本案尚未審結。",
+        "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TNHM%2C115%2C%E8%81%B2%2C597%2C20260624%2C1",
+        "retrieved": true,
+        "note": "該裁定人名有王佑民及王怡雲的文字異體/誤植，已以允能風力、案情及一審人物相互核對。"
+      },
+      "later_search": {
+        "date": "2026-10-22",
+        "queries": [
+          "王又民 2026 上訴 判決",
+          "王又民 二審 2026",
+          "沈宗隆 114年度矚上訴"
+        ],
+        "result": "未找到更晚實體判決，不能將搜尋未找到當作法院仍未判決的保證。"
+      },
+      "gaps": [
+        "應於正式發布前再次查核是否有2026-06-24以後的實體裁判。"
+      ],
+      "id": "county-王又民",
+      "person": "王又民",
+      "electoral_district": "第一選區",
+      "case_title": "達德風電收賄案",
+      "stage": "二審程序；扣押物發還聲請遭駁回，裁定明載本案尚未審結。",
+      "latest_verified_event_date": "2026-06-24",
+      "summary": "一審判處有期徒刑9年6月、褫奪公權8年。 二審程序；扣押物發還聲請遭駁回，裁定明載本案尚未審結。",
+      "sources": [
+        {
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=ULDM%2C113%2C%E7%9F%9A%E8%A8%B4%2C1%2C20250825%2C7",
+          "title": "113年度矚訴字第1號一審判決",
+          "date": "2025-08-25",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TNHM%2C115%2C%E8%81%B2%2C597%2C20260624%2C1",
+          "title": "115年度聲字第597號程序裁定",
+          "date": "2026-06-24",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "caseType": "刑事",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "verified_on": "2026-10-22",
+      "finality": "未查得確定證據；不得標成定讞",
+      "publication_note": "只能描述法院已作成的判決及程序，不得將未確定案件寫成最終有罪。",
+      "name": "黃文政",
+      "party": "中國國民黨",
+      "office": "新竹市議員",
+      "district": "新竹市",
+      "current_office_verified": true,
+      "party_verified": true,
+      "office_source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=9&mid=39",
+      "party_source": "https://www.hsinchu-cc.gov.tw/tc/councilor.aspx?c=9&mid=39",
+      "identity_match": "一審明載新竹市第10、11屆議員，二審列姓名並指向同一一審案號，排除其他同名人的公司、交通案件。",
+      "case_name": "議會出席費等費用案",
+      "first_instance": {
+        "date": "2025-04-30",
+        "court": "臺灣新竹地方法院",
+        "case_number": "112年度訴字第578號",
+        "offense": "利用職務機會詐取財物罪",
+        "holding": "一審兩罪，各1年8月；應執行2年、褫奪公權2年，緩刑5年，判決確定後1年內向公庫支付30萬元。",
+        "amount_ntd": 4900,
+        "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=SCDM%2C112%2C%E8%A8%B4%2C578%2C20250430%2C2"
+      },
+      "latest_verified_stage": {
+        "date": "2026-07-08",
+        "court": "臺灣高等法院",
+        "case_number": "114年度上訴字第4380號",
+        "status": "二審再開辯論；檢察官、黃文政及吳國寶提起上訴，法院因尚有應調查事項裁定再開辯論。",
+        "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPHM%2C114%2C%E4%B8%8A%E8%A8%B4%2C4380%2C20260708%2C2",
+        "retrieved": true
+      },
+      "later_search": {
+        "date": "2026-10-22",
+        "queries": [
+          "黃文政 4380 判決",
+          "黃文政 2026 判決 高院",
+          "黃文政 上訴 2026"
+        ],
+        "result": "找到2026-07-08再開辯論裁定，未找到其後實體判決。"
+      },
+      "gaps": [
+        "2026候選人非官方彙整網站稱無黨籍參選，但官方現任議會頁仍明列國民黨，且該非官方網站將案號/罪名寫錯，不能作為黨籍改變證據。若要求絕對最新黨籍，另核對官方退黨/黨籍公告。",
+        "未找到2026-07-08之後實體裁判，不代表保證不存在。"
+      ],
+      "id": "county-黃文政",
+      "person": "黃文政",
+      "electoral_district": "東區",
+      "case_title": "議會出席費等費用案",
+      "stage": "二審再開辯論；檢察官、黃文政及吳國寶提起上訴，法院因尚有應調查事項裁定再開辯論。",
+      "latest_verified_event_date": "2026-07-08",
+      "summary": "一審兩罪，各1年8月；應執行2年、褫奪公權2年，緩刑5年，判決確定後1年內向公庫支付30萬元。 二審再開辯論；檢察官、黃文政及吳國寶提起上訴，法院因尚有應調查事項裁定再開辯論。",
+      "sources": [
+        {
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=SCDM%2C112%2C%E8%A8%B4%2C578%2C20250430%2C2",
+          "title": "112年度訴字第578號一審判決",
+          "date": "2025-04-30",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://judgment.judicial.gov.tw/FJUD/printData.aspx?id=TPHM%2C114%2C%E4%B8%8A%E8%A8%B4%2C4380%2C20260708%2C2",
+          "title": "114年度上訴字第4380號程序裁定",
+          "date": "2026-07-08",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "caseType": "刑事",
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "publication_status": "ready_with_caveats",
+      "office_verification_date": "2026-10-22"
+    },
+    {
+      "party": "中國國民黨",
+      "current_office_verified": true,
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "office_verification_date": "2026-10-22",
+      "publication_status": "ready_with_caveats",
+      "id": "hsu-yu-chao-assistant",
+      "person": "許玉昭",
+      "office": "金門縣議員",
+      "district": "金門縣",
+      "office_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0002&_PARENT_ID=ER11112WB00004&_TYP=REP&n=574",
+      "party_source": "https://www.moi.gov.tw/LocalOfficial_Content.aspx?TYP=KND0002&_PARENT_ID=ER11112WB00004&_TYP=REP&n=574",
+      "case_title": "公費助理費案",
+      "case_number": "福建高等法院金門分院114年度上訴字第21號",
+      "stage": "二審部分撤銷改判，未確認確定",
+      "latest_verified_event_date": "2026-07-21",
+      "summary": "二審將原判決附表一編號一、二所示之罪所處之刑及定執行刑撤銷，該部分改判3年9月、褫奪公權4年；另一部分3年10月、褫奪公權5年的上訴駁回。本次沒有合併定應執行刑，不得將3年9月寫成全案總刑期。",
+      "sources": [
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1585395-6da72-1.html",
+          "title": "金門高分院二審新聞稿",
+          "date": "2026-07-21",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.judicial.gov.tw/tw/dl-270367-1db221c4d1a743b283a3fdf7fe0e5bec.html",
+          "title": "二審新聞稿全文PDF",
+          "date": "2026-07-21",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.kmdn.gov.tw/1117/1271/1272/591130/",
+          "title": "金門日報：本屆第8次定期會，列許玉昭為現職委員會召集人",
+          "date": "2026-10-22",
+          "type": "current_office_crosscheck",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "未取得2026-07-21後確定證明或最高法院裁判；僅列最新已核實司法事件，不保證之後無進展。"
+      ],
+      "identity_check": "官方司法新聞稿全名、金門縣議員任內助理費；與內政部現職頁及當日議會報導一致。",
+      "caseType": "刑事"
+    },
+    {
+      "party": "中國國民黨",
+      "current_office_verified": true,
+      "office_verification_status": "verified_current",
+      "party_verification_status": "verified_current",
+      "office_verification_date": "2026-10-22",
+      "publication_status": "ready_with_caveats",
+      "id": "chou-tien-lun-petition",
+      "person": "周典論",
+      "office": "屏東縣議員兼議長",
+      "district": "屏東縣",
+      "office_source": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0002&PageSize=1000",
+      "party_source": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0002&PageSize=1000",
+      "case_title": "總統候選人連署行賄案",
+      "case_number": "臺灣高等法院高雄分院114年度選上更一字第1號",
+      "stage": "更一審有罪，得上訴；未確認確定",
+      "latest_verified_event_date": "2026-05-27",
+      "summary": "更一審撤銷原判決，認定交付賄賂罪，判3年4月、併科罰金150萬元及褫奪公權5年。周典論否認交付款項為賄款，稱為工作費；法院未採其辯解，新聞稿明載得上訴。",
+      "sources": [
+        {
+          "url": "https://www.judicial.gov.tw/tw/cp-1888-1552210-ac1b6-1.html",
+          "title": "高雄高分院更一審新聞稿",
+          "date": "2026-05-27",
+          "type": "official_court",
+          "accessed_at": "2026-10-22"
+        },
+        {
+          "url": "https://www.cna.com.tw/news/asoc/202605270074.aspx",
+          "title": "中央社：周典論表示將研議上訴",
+          "date": "2026-05-27",
+          "type": "party_response",
+          "accessed_at": "2026-10-22"
+        }
+      ],
+      "gaps": [
+        "內政部縣市議員完整列表於2026-10-22直接HTTP讀取，列屏東議長及國民黨；個人頁web工具未成功開啟。名錄未提供個別更新日期。",
+        "未找到2026-05-27之後實體裁判或確定證明；不保證沒有後續。",
+        "另有過去議長選舉案無罪線索，尚未核對原始判決；不得宣稱本紀錄涵蓋其全部司法案件。"
+      ],
+      "identity_check": "法院全名及議長職務與內政部列表一致。",
+      "caseType": "刑事"
+    }
+  ]
+};
+window.COVERAGE_DATA = {
+  "checked_at": "2026-10-22",
+  "total_jurisdictions": 23,
+  "complete_jurisdictions": 0,
+  "definition": "初搜不等於逐人普查；已查核筆數不表示最新程序或全國覆蓋無缺漏。零筆僅表示本試行版未收錄，並非該縣市無案件。",
+  "jurisdictions": [
+    {
+      "jurisdiction": "立法院",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 11,
+      "verified_person_count": 8,
+      "checked_names": [
+        "傅崐萁",
+        "林宜瑾",
+        "林岱樺",
+        "盧縣一",
+        "許宇甄",
+        "賴惠員",
+        "郭國文",
+        "顏寬恒"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=109"
+    },
+    {
+      "jurisdiction": "臺北市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 2,
+      "verified_person_count": 2,
+      "checked_names": [
+        "應曉薇",
+        "陳重文"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "新北市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "曾煥嘉"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "桃園市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "游吾和"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "臺中市",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "臺南市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 2,
+      "verified_person_count": 2,
+      "checked_names": [
+        "林志展",
+        "邱莉莉"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "高雄市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "曾麗燕"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=573&sms=11400&TYP=KND0001"
+    },
+    {
+      "jurisdiction": "基隆市",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "新竹市",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "黃文政"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "嘉義市",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "新竹縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "苗栗縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "彰化縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "南投縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "雲林縣",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 2,
+      "verified_person_count": 2,
+      "checked_names": [
+        "沈宗隆",
+        "王又民"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "嘉義縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "屏東縣",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "周典論"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "宜蘭縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "花蓮縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "臺東縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "澎湖縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "金門縣",
+      "coverage_status": "部分個案已查核，未完成全體名冊逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 1,
+      "verified_person_count": 1,
+      "checked_names": [
+        "許玉昭"
+      ],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    },
+    {
+      "jurisdiction": "連江縣",
+      "coverage_status": "已做縣市關鍵字初搜，未完成現職逐人普查",
+      "roster_status": "收錄個人已核對；完整名冊及全員司法查核尚未完成",
+      "verified_record_count": 0,
+      "verified_person_count": 0,
+      "checked_names": [],
+      "search_level": "jurisdiction_keyword_first_pass_and_selected_person_checks",
+      "roster_url": "https://www.moi.gov.tw/LocalOfficial.aspx?n=574&sms=11400&TYP=KND0002"
+    }
+  ]
+};
